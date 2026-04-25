@@ -41,14 +41,14 @@ class Student : public Person
 		}
 		void GetEdu()
 		{
-			cout << "Enter your Roll Number : " ;
+			cout << "Enter your Roll Number  :" ;
 			cin >>roll ;
 			cout << "Enter your Marks : " ;
 			cin >>marks ;
 		}
 		void ShowEdu()
 		{
-			cout << "\nThe Educational details of student "<<endl;
+			cout << "\nThe Educational details of student"<<endl;
 			cout << "Your Roll Number is : " <<roll <<endl ; 
 			cout << "Your marks are : " << marks <<endl ;
 		}
