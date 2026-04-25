@@ -23,7 +23,7 @@ class Person
 		}
 		void ShowInfo()
 		{
-			cout << "\nThe Info of person is as follows " <<endl ;
+			cout << "\nThe Information of person  " <<endl ;
 			cout << "Id is : " <<id <<endl ;
 			cout << "Name is : " <<name <<endl ;
 			cout << "Address is : " <<address <<endl ;
@@ -48,7 +48,7 @@ class Student : public Person
 		}
 		void ShowEdu()
 		{
-			cout << "\nThe Educational details or student "<<endl;
+			cout << "\nThe Educational details of student "<<endl;
 			cout << "Your Roll Number is : " <<roll <<endl ; 
 			cout << "Your marks are : " << marks <<endl ;
 		}
